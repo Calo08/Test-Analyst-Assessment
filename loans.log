@@ -1,0 +1,32 @@
+2023-10-03 12:39:15 [restartedMain][, , ] INFO  za.co.loans.Application - Starting Application on Langavis-MacBook-Pro.local with PID 2071 (/Users/langavishishavele/Downloads/qa/build/classes/java/main started by langavishishavele in /Users/langavishishavele/Downloads/qa)
+2023-10-03 12:39:15 [restartedMain][, , ] INFO  za.co.loans.Application - No active profile set, falling back to default profiles: default
+2023-10-03 12:39:15 [restartedMain][, , ] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@114ea8b2: startup date [Tue Oct 03 12:39:15 SAST 2023]; root of context hierarchy
+2023-10-03 12:39:17 [restartedMain][, , ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-03 12:39:17 [restartedMain][, , ] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-03 12:39:17 [restartedMain][, , ] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2023-10-03 12:39:17 [localhost-startStop-1][, , ] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/langavishishavele/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-03 12:39:17 [localhost-startStop-1][, , ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-03 12:39:17 [localhost-startStop-1][, , ] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2023-10-03 12:39:17 [localhost-startStop-1][, , ] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-03 12:39:17 [localhost-startStop-1][, , ] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-03 12:39:17 [localhost-startStop-1][, , ] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-10-03 12:39:17 [localhost-startStop-1][, , ] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-03 12:39:17 [localhost-startStop-1][, , ] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+2023-10-03 12:39:17 [localhost-startStop-1][, , ] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2023-10-03 12:39:18 [restartedMain][, , ] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-10-03 12:39:18 [restartedMain][, , ] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2023-10-03 12:39:18 [restartedMain][, , ] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2023-10-03 12:39:18 [restartedMain][, , ] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-10-03 12:39:18 [restartedMain][, , ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-10-03 12:39:19 [restartedMain][, , ] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-10-03 12:39:19 [restartedMain][, , ] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2023-10-03 12:39:19 [restartedMain][, , ] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2023-10-03 12:39:19 [restartedMain][, , ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-10-03 12:39:19 [restartedMain][, , ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-10-03 12:39:19 [restartedMain][, , ] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-10-03 12:39:19 [restartedMain][, , ] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-03 12:39:19 [restartedMain][, , ] INFO  za.co.loans.Application - Started Application in 4.718 seconds (JVM running for 5.566)
+2023-10-03 12:39:19 [RMI TCP Connection(2)-127.0.0.1][, , ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2023-10-03 12:42:28 [Thread-19][, , ] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@114ea8b2: startup date [Tue Oct 03 12:39:15 SAST 2023]; root of context hierarchy
+2023-10-03 12:42:28 [Thread-19][, , ] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2023-10-03 12:42:28 [Thread-19][, , ] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
